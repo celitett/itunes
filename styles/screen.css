@@ -1,0 +1,120 @@
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+
+.container{
+	margin-bottom: 50px;
+}
+
+article{
+	border: 1px solid mediumaquamarine;
+	margin-bottom: 0.75rem;
+	border-radius: 25px;
+}
+
+img{
+	display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 20px;
+}
+
+.small-title{
+	margin-bottom: 30px;
+	font-size: 20px;
+	color: mediumaquamarine;
+}
+
+h1, h2, h3, p{
+	text-align: center;
+}
+
+p{
+	color: white;
+}
+
+.main_title{
+	margin-top: 300px;
+	margin-bottom: 30px;
+	color: white;
+	font-size: 4em;
+}
+
+.secondary_title{
+	color: mediumaquamarine;
+	font-size: 1.5em;
+	margin-bottom: 320px;
+}
+
+.title_first_article{
+	color: white;
+	margin-bottom: 50px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+button{
+	width: 348px;
+}
+
+body { 
+    background-image: url("../styles/images/background_wide.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
