@@ -37,13 +37,14 @@
 
 
 .container{
-	margin-bottom: 50px;
+
 }
 
 article{
-	border: 1px solid mediumaquamarine;
-	margin-bottom: 0.75rem;
-	border-radius: 25px;
+	border-bottom: 2px solid mediumaquamarine;
+	padding-bottom: 30px;
+	margin-bottom: 60px;
+	background-color: rgba(102,221,170, .4);
 }
 
 img{
@@ -51,6 +52,8 @@ img{
     margin-left:auto;
     margin-right:auto;
     margin-bottom: 20px;
+    width: 330px;
+    height: 330px;
 }
 
 .small-title{
@@ -61,6 +64,14 @@ img{
 
 h1, h2, h3, p{
 	text-align: center;
+	justify-content: center;
+}
+
+h3{
+	border-bottom: 2px solid mediumaquamarine;
+	border-top: 2px solid mediumaquamarine;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
 
 p{
@@ -89,8 +100,18 @@ ul{
 	list-style-type: none;
 }
 
+li{
+	color: mediumaquamarine;
+	font-weight: bold;
+}
+
 button{
-	width: 348px;
+	justify-content: center;
+	width: 100%;
+}
+
+div.row{
+	margin-top: -17px;
 }
 
 body { 
@@ -99,6 +120,13 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-position:center;
+}
+
+audio{
+	width: 220px;
+	margin-top: 5px;
+	border-bottom: 2px solid mediumaquamarine;
+	margin-bottom: 20px;
 }
 
 
