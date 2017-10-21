@@ -1,0 +1,474 @@
+/* -------------------------------- ---------------------------------------------------------------------------------------------------
+
+Primary style
+
+-------------------------------- */
+
+
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body, html {
+  /* important */
+  height: 100%;
+}
+
+a {
+  color: #b4d7a8;
+  text-decoration: none;
+}
+
+.cd-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: -70px;
+}
+.cd-container::after {
+  /* clearfix */
+  content: '';
+  display: table;
+  clear: both;
+}
+
+@font-face {
+    font-family: moon;
+    src: url(../fonts/moon.otf);
+}
+
+/* -------------------------------- 
+
+Main components 
+
+-------------------------------- */
+
+.cd-main-content {
+  height: 100%;
+}
+
+.cd-fixed-bg {
+  position: relative;
+  height: 300px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.cd-fixed-bg-image{
+  position: relative;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.cd-fixed-bg h2, .cd-fixed-bg-image h2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 1170px;
+  text-align: center;
+  font-size: 1.5em;
+  color: white;
+  font-family: moon;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+.cd-fixed-bg h1, .cd-fixed-bg-image h1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -o-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 1170px;
+  text-align: center;
+  font-size: 5em;
+  color: mediumaquamarine;
+  font-family: moon;
+}
+
+.cd-fixed-bg-image.cd-bg-1 {
+  background-image: url("../img/background_fire.jpg");
+}
+.cd-fixed-bg.cd-bg-2 {
+  background-image: url("../img/AS.jpg");
+}
+.cd-fixed-bg.cd-bg-3 {
+  background-image: url("../img/GotG.jpg");
+}
+.cd-fixed-bg.cd-bg-4 {
+  background-image: url("../img/MCR.jpg");
+}
+
+.cd-fixed-bg, .cd-fixed-bg-image {
+    background-attachment: fixed;
+}
+
+.cd-scrolling-bg {
+  position: relative;
+  min-height: 100%;
+  padding: 4em 0;
+  line-height: 1.6;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+  z-index: 2;
+}
+.cd-scrolling-bg.cd-color-1 {
+  background-color: #333333;
+  width: cover;
+}
+.cd-scrolling-bg.cd-color-2 {
+  background-color: #122235;
+  width: cover;
+}
+.cd-scrolling-bg.cd-color-3 {
+  background-color: #17375a;
+  width: cover;
+}
+.cd-scrolling-bg.cd-color-4 {
+  background-color: #282829;
+  width: cover;
+}
+
+.cd-scrolling-bg {
+  padding: 8em 0;;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 300;
+}
+
+
+
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+
+/* ==============================================
+   COLORS
+   ============================================== */
+
+
+/* ==============================================
+   GLOBAL STYLES
+   ============================================== */
+
+
+/* MEDIA QUERIES
+*********************************************/
+
+
+/* Extra small devices (portrait phones, less than 576px)
+/ No media query since this is the default in Bootstrap*/
+
+
+/* Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {}
+
+
+/* Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) {}
+
+
+/* Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) {}
+
+
+/* Extra large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) {}
+
+
+img{
+    width: 320px;
+    height: 320px;
+    margin-top: 50px;
+    margin: 10 auto;
+    vertical-align: middle;
+}
+
+.small-title{
+  margin-bottom: 30px;
+  font-size: 30px;
+  color: mediumaquamarine;
+  font-family: moon;
+}
+
+h1, h2, h3, p{
+  text-align: center;
+  justify-content: center;
+}
+
+h2{
+  border-bottom: 2px solid mediumaquamarine;
+  border-top: 2px solid mediumaquamarine;
+  padding-bottom: 10px;
+}
+
+p{
+  color: white;
+  font-size: 18px;
+  font-family: helvetica;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+.info_title{
+  font-size: 28px;
+  font-family: helvetica;
+  color: mediumaquamarine;
+  padding-bottom: 10px;
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  color: mediumaquamarine;
+  font-weight: bold;
+}
+
+button{
+  justify-content: center;
+  width: 100%;
+  color: mediumaquamarine;
+}
+
+div.row{
+  margin-top: -17px;
+}
+
+body { 
+    background-image: url("../styles/images/background_fire.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+}
+
+audio{
+  width: 798px;
+  margin-top: 5px;
+  border-bottom: 2px solid mediumaquamarine;
+  margin-bottom: 20px;
+  position: center center;
+}
+
+.btn-buy { 
+  color: #ffffff; 
+  background-color: #66CDAA; 
+  border-color: #37735F;
+  border-radius: 8px;
+} 
+ 
+.btn-buy:hover, 
+.btn-buy:focus, 
+.btn-buy:active, 
+.btn-buy.active, 
+.open .dropdown-toggle.btn-buy { 
+  color: #ffffff; 
+  background-color: #74EDC5; 
+  border-color: #37735F;
+  border-radius: 8px;
+} 
+ 
+.btn-buy:active, 
+.btn-buy.active, 
+.open .dropdown-toggle.btn-buy { 
+  background-image: none;
+  border-radius: 8px;
+} 
+ 
+.btn-buy.disabled, 
+.btn-buy[disabled], 
+fieldset[disabled] .btn-buy, 
+.btn-buy.disabled:hover, 
+.btn-buy[disabled]:hover, 
+fieldset[disabled] .btn-buy:hover, 
+.btn-buy.disabled:focus, 
+.btn-buy[disabled]:focus, 
+fieldset[disabled] .btn-buy:focus, 
+.btn-buy.disabled:active, 
+.btn-buy[disabled]:active, 
+fieldset[disabled] .btn-buy:active, 
+.btn-buy.disabled.active, 
+.btn-buy[disabled].active, 
+fieldset[disabled] .btn-buy.active { 
+  background-color: #66CDAA; 
+  border-color: #37735F;
+  border-radius: 8px;
+} 
+ 
+.btn-buy .badge { 
+  color: #66CDAA; 
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.album_title{
+  margin-bottom: -30px;
+  margin-top: 30px;
+  font-size: 25px;
+  color: white;
+  font-family: moon;
+  border-bottom: 2px solid mediumaquamarine;
+}
+
+.info_image{
+  display:block;
+  margin:auto;
+  margin-top: 50px;
+}
+
+.second_image{
+  width: 330px;
+  height: 330px;
+  display:block;
+  margin:auto;
+  position: center center;
+}
+
+.info_text{
+  margin:auto;
+  margin-top: 45px;
+  text-align: left;
+}
+
+.playlist_button{
+  margin-top: 30px;
+}
+
+.btn-discover { 
+  color: #ffffff; 
+  background-color: #68739E; 
+  border-color: #FFFFFF;
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 25px;
+} 
+ 
+.btn-discover:hover, 
+.btn-discover:focus, 
+.btn-discover:active, 
+.btn-discover.active, 
+.open .dropdown-toggle.btn-discover { 
+  color: #ffffff; 
+  background-color: black; 
+  border-color: #FFFFFF;
+  border-radius: 8px;
+} 
+ 
+.btn-discover:active, 
+.btn-discover.active, 
+.open .dropdown-toggle.btn-discover { 
+  background-image: none;
+  border-radius: 8px;
+} 
+ 
+.btn-discover.disabled, 
+.btn-discover[disabled], 
+fieldset[disabled] .btn-discover, 
+.btn-discover.disabled:hover, 
+.btn-discover[disabled]:hover, 
+fieldset[disabled] .btn-discover:hover, 
+.btn-discover.disabled:focus, 
+.btn-discover[disabled]:focus, 
+fieldset[disabled] .btn-discover:focus, 
+.btn-discover.disabled:active, 
+.btn-discover[disabled]:active, 
+fieldset[disabled] .btn-discover:active, 
+.btn-discover.disabled.active, 
+.btn-discover[disabled].active, 
+fieldset[disabled] .btn-discover.active { 
+  background-color: black; 
+  border-color: #FFFFFF;
+  border-radius: 8px;
+} 
+ 
+.btn-discover .badge { 
+  color: #858BFF; 
+  background-color: black;
+  border-radius: 8px;
+}
+
+.btn-playlist { 
+  color: #66CDAA; 
+  background-color: black; 
+  border-color: #66CDAA;
+  border-radius: 8px;
+  height: 40px;
+} 
+ 
+.btn-playlist:hover, 
+.btn-playlist:focus, 
+.btn-playlist:active, 
+.btn-playlist.active, 
+.open .dropdown-toggle.btn-playlist { 
+  color: white; 
+  background-color: #217056; 
+  border-color: #66CDAA;
+  border-radius: 8px;
+} 
+ 
+.btn-playlist:active, 
+.btn-playlist.active, 
+.open .dropdown-toggle.btn-playlist { 
+  background-image: none;
+  border-radius: 8px;
+} 
+ 
+.btn-playlist.disabled, 
+.btn-playlist[disabled], 
+fieldset[disabled] .btn-playlist, 
+.btn-playlist.disabled:hover, 
+.btn-playlist[disabled]:hover, 
+fieldset[disabled] .btn-playlist:hover, 
+.btn-playlist.disabled:focus, 
+.btn-playlist[disabled]:focus, 
+fieldset[disabled] .btn-playlist:focus, 
+.btn-playlist.disabled:active, 
+.btn-playlist[disabled]:active, 
+fieldset[disabled] .btn-playlist:active, 
+.btn-playlist.disabled.active, 
+.btn-playlist[disabled].active, 
+fieldset[disabled] .btn-playlist.active { 
+  background-color: #FFFFFF; 
+  border-color: #66CDAA;
+  border-radius: 8px;
+} 
+ 
+.btn-playlist .badge { 
+  color: #FFFFFF; 
+  background-color: #66CDAA;
+  border-radius: 8px;
+}
+
+.play_flex{
+  display: flex;
+}
+
+span{
+  color: mediumaquamarine;
+}
+
+.album_end{
+  border-bottom: 2px solid mediumaquamarine;
+  padding-bottom: 15px;
+}
+
+
